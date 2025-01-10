@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Frontend Mentor | Blog preview card</title>
+  </head>
+  <body
+    class="*:font-sans *:overflow-hidden *:m-0 *:p-0 *:box-border bg-yellow-300 flex items-center justify-center min-h-[900px] h-screen w-full"
+  >
+    <div
+      class="*:p-8 border-solid shadow-[10px_10px_0px_1px_rgba(0,_0,_0,_0.8)] border-black border-2 max-[640px]:w-[90%] max-w-md md:w-[90%] rounded-2xl h-max bg-white"
+    >
+      <div
+        class="bg-[url('/assets/images/illustration-article.svg')] bg-no-repeat bg-cover rounded-2xl m-5 h-64"
+      ></div>
+      <div class="h-3/5">
+        <p class="p-2 rounded-md mb-4 font-bold bg-yellow-300 w-32 text-center">
+          Learning
+        </p>
+        <p class="mb-4 text-black font-medium">Published 21 Dec 2023</p>
+        <h1
+          class="text-2xl mb-4 font-bold hover:text-yellow-300 ease-in-ou duration-100"
+        >
+          HTML & CSS foundations
+        </h1>
+        <p class="font-medium text-gray-500">
+          These languages are the backbone of every website, defining structure,
+          content, and presentation.
+        </p>
+        <div class="flex mt-8 items-center justify-start">
+          <img class="w-12 mr-4" src="assets/images/image-avatar.webp" />
+          <p class="font-bold">Greg Hooper</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
